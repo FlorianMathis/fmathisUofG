@@ -149,8 +149,7 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: {{ member.email }}
-  <br>research topic: {{ member.description }}</i>
+  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -184,6 +183,7 @@ permalink: /team/
   {% endif %}
 
   </ul>
+  <h3>Research topic: {{ member.description }}</h3>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
