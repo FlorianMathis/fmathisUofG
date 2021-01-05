@@ -183,7 +183,7 @@ permalink: /team/
   {% endif %}
 
   </ul>
-  <p class="justify">{{ member.description }}<br>
+  <p>{{ member.description }}<br>
   <b>keywords:</b> {{ member.keywords }}</p>
 </div>
 
