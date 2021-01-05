@@ -184,7 +184,7 @@ permalink: /team/
 
   </ul>
   <p class="justify">{{ member.description }}</p>
-  <p> {{ member.keywords }}</p>
+  <p><b>keywords:</b>{{ member.keywords }}</p>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
