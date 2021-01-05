@@ -10,10 +10,11 @@
   photo: mathis.jpg
   info: PhD student, started Oct 2019
   email: florian.mathis@glasgow.ac.uk
+  description: test
   personal_website: http://www.fmathis.com/ 
   number_educ: 2
-  education1: MSc from Ludwig Maximilian University of Munich (LMU)
-  education2: BSc from Ludwig Maximilian University of Munich (LMU)
+  education1: M.Sc. from LMU Munich, Germany
+  education2: B.Sc. from LMU Munich, Germany
 
 - name: Yasmeen Abdrabou
   photo: abdrabou.jpg
