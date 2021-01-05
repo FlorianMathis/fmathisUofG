@@ -183,6 +183,7 @@ permalink: /team/
   {% endif %}
 
   </ul>
+    <h4>{{ member.name }}</h4>
   <h3>Research topic: {{ member.description }}</h3>
 </div>
 
