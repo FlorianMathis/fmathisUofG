@@ -183,8 +183,7 @@ permalink: /team/
   {% endif %}
 
   </ul>
-    <h4>{{ member.name }}</h4>
-  <h3>Research topic: {{ member.description }}</h3>
+  <h4>Description: {{ member.description }}</h4>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
